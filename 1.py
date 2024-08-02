@@ -159,7 +159,7 @@ def main():
                     send_email(receiver, sender_email, sender_password, 'Жалоба на аккаунт телеграм', comp_body)
                     print(colored(f"Отправлено на {receiver} от {sender_email}!", 'green'))
                     sent_emails += 14888
-                    time.sleep(5)
+                    time.sleep(0.1)
 
         elif comp_choice == "4":
             username = input("@username: ")
@@ -175,7 +175,7 @@ def main():
                     send_email(receiver, sender_email, sender_password, 'Я утерял свой аккаунт в телеграм', comp_body)
                     print(colored(f"Отправлено на {receiver} от {sender_email}!", 'green'))
                     sent_emails += 14888
-                    time.sleep(5)
+                    time.sleep(0.1)
 
         elif comp_choice in ["5", "6"]:
             username = input("username: ")
@@ -192,7 +192,7 @@ def main():
                     send_email(receiver, sender_email, sender_password, 'Жалоба на пользователя телеграм', comp_body)
                     print(colored(f"Отправлено на {receiver} от {sender_email}!", 'green'))
                     sent_emails += 9999
-                    time.sleep(5)
+                    time.sleep(0.1)
 
 
     elif choice == "2":
@@ -220,7 +220,7 @@ def main():
                     send_email(receiver, sender_email, sender_password, 'Жалоба на телеграм канал', comp_body)
                     print(colored(f"Отправлено на {receiver} от {sender_email}!", 'green'))
                     sent_emails += 100000
-                    time.sleep(5)
+                    time.sleep(0.1)
 
     elif choice == "3":
         print("@fullmvd Создатель проекта ЕвненийРепорт,этот сносер будет продаваться за 250₽")
@@ -241,7 +241,7 @@ def main():
                     send_email(receiver, sender_email, sender_password, 'Жалоба на бота телеграм', comp_body)
                     print(colored(f"Отправлено на {receiver} от {sender_email}!", 'green'))
                     sent_emails += 1
-                    time.sleep(5)
+                    time.sleep(0.1)
         
         
 
